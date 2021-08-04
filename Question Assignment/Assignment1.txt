@@ -1,0 +1,10 @@
+1. Outside of using asp.net, since we need to make a website app, it's important that we create an interface that the customer can easily navigate and login. 
+This will probably take the form of a simple login screen when the website is accessed. If their username is not detected, they will be given the option to register. 
+There also will be a link underneath the login that leads to registration as well. 
+So that previous users can access their old accounts, we'll store the username and password in an SQL database together with the rest of the profile info and quote history.
+To access, there will likely be a binary search initially, and then the result will be indexed in a hash table for easy future access.
+Afterwards, they can go ahead to edit their personal information/profile. When they want to get a quote, they'll access a fuel quote form in which all the info about fuel that the they needs can be filled out. This will make up the front end.
+The back end will have things that the user does not need to see, but is necessary to keep tabs on the user, and correctly calculate their fuel quote. 
+This will draw from the database we create, as well as be populated by the login screen.
+Lastly, the database holds all this information, and we'll have a way for the backend to pull up information (likely by using a hash index), in order to make the necessary calculations. 
+We'll use Microsoft SQL Server to create the database, as it pairs well with asp.net.

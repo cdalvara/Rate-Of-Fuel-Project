@@ -1,0 +1,4 @@
+ValidateRegisterandLogin - uncomment, comment for unit test
+ValidateProfileManage - uncomment, comment for unit test
+UpdateHistory return $result -comment out for actual website, uncomment for unit test
+PricingModule.php - uncomment, comment for unit test

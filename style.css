@@ -1,0 +1,110 @@
+/*changes background to blueish-white, text to black*/
+*{
+  background-color: #d1d7e0;
+  color: black;
+}
+/*top navigation bar, centers*/
+.topnav {
+  margin-top: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+/*makes links spaced out, and larger*/
+.topnav a{
+  padding: 14px 16px;
+  font-size: 17px;
+}
+/*makes icon smaller*/
+.topnav img {
+  width : 50px;
+  height:auto;
+}
+/*reduces margins, but expands bottom margin for increasing table, and sets default font and space between lines*/
+body {
+  margin: 0px;
+  margin-bottom: 15px;
+  font-family: Helvetica, sans-serif;
+  line-height: 2;
+}
+/*makes form go in the center*/
+.form {
+  display: block;
+  text-align: center;
+}
+/*resets form input values to go to the left*/
+form {
+  display:inline-block;
+  text-align: left;
+}
+.SuggestedPriceperGallon {
+  display:inline-block;
+  text-align: left;
+}
+.TotalAmountDue {
+  display:inline-block;
+  text-align: left;
+}
+/*edits border for form box*/
+fieldset {
+  border:2px solid black;
+}
+/*aligns title and form title in the center*/
+h1, h2 {
+  text-align: center;
+}
+/*edits form label font size*/
+label {
+  font-size: medium;
+}
+/*provides border to table, and centers it*/
+table, th, td{
+  border:2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*edits header values in table*/
+th {
+  border:2px solid black;
+  padding:12px;
+}
+/*edits data values in table*/
+td {
+  text-align: center;
+  padding:12px;
+}
+/*aligns button in the center*/
+.button {
+  text-align: center;
+}
+.getquotebtn {
+  margin-right:8px;
+}
+.submitbtn {
+  margin-left:10px;
+}
+/*edits error message after not filling in fields*/
+.error {
+  background-color: crimson;
+  font-weight: bolder;
+  color: white;
+  padding-left: 5px;
+}
+.maintext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.header-right{
+    float:none;
+    text-align:right;
+    color: white;
+}
+.middle{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    font-size: 17px;
+}

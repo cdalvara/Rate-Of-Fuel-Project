@@ -1,0 +1,23 @@
+CREATE DATABASE fuelquote;
+CREATE TABLE UserCredentials (
+    usersId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    usersUid varchar(128) NOT NULL,
+    usersPwd varchar(128) NOT NULL
+);
+CREATE TABLE ClientInformation (
+	usersId int(11) PRIMARY KEY,
+	FullName varchar(128) NOT NULL,
+	Address1 varchar(128) NOT NULL,
+	Address2 varchar(128),
+	City varchar(128) NOT NULL,
+	State varchar(128) NOT NULL,
+	ZipCode varchar(128) NOT NULL
+);
+CREATE TABLE FuelQuote (
+	usersId int(11),
+	GallonsRequested int(11) NOT NULL,
+	DeliveryAddress varchar(128),
+	DeliveryDate DATE,
+	SuggestedPriceperGallon FLOAT(11),
+	TotalAmountDue FLOAT(11)
+);

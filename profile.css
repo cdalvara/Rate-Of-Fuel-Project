@@ -1,0 +1,64 @@
+*{
+    background-color: #d1d7e0;
+    color: black;
+}
+  /*top navigation bar, centers*/
+.topnav {
+    margin-top: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+  /*makes links spaced out, and larger*/
+.topnav a{
+    padding: 14px 16px;
+    font-size: 17px;
+}
+  /*makes icon smaller*/
+.topnav img {
+    width : 50px;
+    height:auto;
+}
+.information {
+    margin: auto;
+    width: 50%;
+    border-radius: 5px;
+    padding: 20px;
+    border:2px solid black;
+    width: 600px;
+}
+
+label {
+    font-size: larger;
+}
+
+.flex-container {
+    display: flex;
+    padding: 10px;
+}
+
+.flex-child {
+    flex: 1;
+    color: red;
+}
+
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.button {
+    text-align: center;
+    padding: 10px;
+}
+.error {
+  background-color: crimson;
+  font-weight: bolder;
+  color: white;
+  padding-left: 5px;
+}
+body {
+  margin: 0px;
+  margin-bottom: 15px;
+  font-family: Helvetica, sans-serif;
+  line-height: 2;
+}

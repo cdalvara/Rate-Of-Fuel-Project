@@ -1,0 +1,12 @@
+1. The link is here: https://github.com/Ariyune/Rate-Of-Fuel-Project.git
+
+2. Our design and development methodology have not changed since assignment one. Creating a front end for assignment two did not
+cause us any trouble and we had no difficulties making an interface in which the user can interact with. So far, we did not encounter
+any obstacles to change our design. Our group is working well with our current development methodology, which is incremental methodology,
+and do not find it necessary to change it. Everyone is doing their part in this first page and we will continue with incremental methodology.
+
+3. We used HTML, CSS and javascript for our frontend. It allows us to implement forms, basic functions, and create an interactive website customers can input information in and submit it. 
+HTML provides the basic website framework; javascript gives us the ability to actually interact with forms, create tables, and perform functions. CSS, as a styler, gives us the ability to make the website look presentable and professional.
+We divided the work into 3 parts: Danny Phan did “Fuel Quote Form and History”, Carlos Alvarado Ortuno did “Client Profile Management” and Dong Nguyen did “Login and Registration”. 
+
+4. Refer to the images provided in the rar file. The work is divided accordingly as stated before in question 3.

@@ -1,0 +1,10 @@
+The development methodology that our group is going to use is the incremental development.
+We decided to use this methodology because the requirements of this project are clearly explained and understood.
+In addition, since we are in a shorter semester, we are applying incremental development because it is used when there is a tight deadline or deadlines.
+One of the characteristics of this methodology is that a project or software is split into different stages,
+which is what we are going to do in this class: first the front end, second the back end, third the database, and finally creating the pricing module.
+In the first stage, we will create the user interface in which the user will be able to register, login, manage their profile, and fill out a fuel quote form.
+During the second stage we will create the back end in which we will receive the data from the user interface, validate it, and prepare to connect it to a database.
+In the third stage, our group is going to create a database with the given requirements.
+Lastly, during the final stage our group will create a pricing module that should be able to calculate the price per gallon based on the given formula.
+We will be using asp.net with C# to create our web application.

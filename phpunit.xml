@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         verbose="true"
+         colors="true"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="default">
+            <file>tests/ValidateLoginandRegisterTest.php</file>
+            <file>tests/ValidateProfileManageandDisplayTest.php</file>
+            <file>tests/ValidateFuelQuoteTest.php</file>
+            <file>tests/UpdateHistoryTest.php</file>
+            <file>tests/PricingModuleTest.php</file>
+        </testsuite>
+    </testsuites>
+
+    <coverage cacheDirectory=".phpunit.cache/code-coverage"
+              processUncoveredFiles="true">
+        <include>
+            <directory>./ValidateRegisterandLogin.php</directory>
+            <directory>./ValidateProfileManage.php</directory>
+            <directory>./GetProfileDisplay.php</directory>
+            <directory>./ValidateFuelQuote.php</directory>
+            <directory>./UpdateHistory.php</directory>
+            <directory>./PricingModule.php</directory>
+        </include>
+    </coverage>
+</phpunit>
